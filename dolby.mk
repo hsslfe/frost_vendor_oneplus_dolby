@@ -9,8 +9,7 @@ PRODUCT_COPY_FILES += \
 
 # Xiaomi Dolby
 PRODUCT_PACKAGES += \
-    XiaomiDolby \
-    XiaomiDolbyResCommon
+    LunarisDolby
 
 # Inherit from proprietary targets
 $(call inherit-product, $(LOCAL_PATH)/dolby-vendor.mk)
